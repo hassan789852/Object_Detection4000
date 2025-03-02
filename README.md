@@ -21,7 +21,7 @@ It processes **live camera frames**, provides **real-time guidance** to the user
 ### **1️⃣ Clone the Repository**
 
 ```sh
-git clone <https://gitlab.com/hassan4000/hassan_live_object>
+git clone < https://github.com/hassan789852/Object_Detection4000.git>
 
 ```
 

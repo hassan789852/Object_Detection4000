@@ -1,0 +1,20 @@
+{
+  "app_title": "كشف الكائنات الحية",
+  "select_object": "اختر كائنًا",
+  "get_started": "ابدأ",
+  "detecting": "جارٍ اكتشاف ",
+  "move_closer": "اقترب أكثر",
+  "move_farther": "ابتعد أكثر",
+  "object_in_position": "الكائن في الموضع الصحيح",
+  "detection_result": "نتيجة الكشف",
+  "object_type": "نوع الكائن",
+  "date": "التاريخ",
+  "time": "الوقت",
+  "image_path": "مسار الصورة",
+  "back_to_home": "العودة إلى الرئيسية",
+  "keyboard": "لوحة مفاتيج",
+  "laptop": "حاسوب محمول",
+  "mouse": "فأرة",
+  "bottle": "عبوة",
+  "choose_object": "اختر كائنًا للكشف عنه:"
+}

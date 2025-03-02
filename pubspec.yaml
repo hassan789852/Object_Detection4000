@@ -1,0 +1,44 @@
+name: Hasssan_Hallak_live_object
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.5
+  tflite_flutter: ^0.11.0
+
+  camera: ^0.10.5+2
+  image: ^4.0.17
+  path_provider: ^2.0.15
+  image_picker: ^1.0.0
+  exif: ^3.1.4
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.2
+  intl: ^0.19.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/models/
+    - assets/lang/en.json
+    - assets/lang/ar.json

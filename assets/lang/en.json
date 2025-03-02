@@ -1,0 +1,20 @@
+{
+  "app_title": "Live Object Detection",
+  "select_object": "Select an Object",
+  "get_started": "Get Started",
+  "detecting": "Detecting ",
+  "move_closer": "Move closer",
+  "move_farther": "Move farther",
+  "object_in_position": "Object in position",
+  "detection_result": "Detection Result",
+  "object_type": "Object Type",
+  "date": "Date",
+  "time": "Time",
+  "image_path": "Image Path",
+  "back_to_home": "Back to Home",
+  "keyboard": "Keyboard",
+  "laptop": "Laptop",
+  "mouse": "Mouse",
+  "bottle": "Bottle",
+  "choose_object": "Choose an object to detect:"
+}

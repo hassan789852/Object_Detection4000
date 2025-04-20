@@ -36,6 +36,9 @@ jobs:
         with:
           channel: 'stable'
           flutter-version: '3.27.1'
+          cache: true
+          cache-key: "flutter-:os:-:channel:-:version:-:arch:-:hash:"
+          cache-path: "${{ runner.tool_cache }}/flutter/:channel:-:version:-:arch:"
 
 
       - name: Get Flutter packages
@@ -69,10 +72,10 @@ jobs:
           tar -czf ios_build.tar.gz ios
 
 
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: Releases
-          path: |
-            build/app/outputs/flutter-apk/app-release.apk
-            build/ios_build.tar.gz
+#      - name: Upload Artifacts
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: Releases
+#          path: |
+#            build/app/outputs/flutter-apk/app-release.apk
+#            build/ios_build.tar.gz

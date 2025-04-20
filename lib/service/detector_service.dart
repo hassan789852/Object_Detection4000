@@ -238,9 +238,7 @@ class _DetectorServer {
 
    Future<Isolate> localRun(Map<String, dynamic> params,CameraController? controller) async {
      // cameraController=controller;
-      final SendPort sendPortValue = params[AppConstants.sendPort];
-      final String selectedObjectValue = params[AppConstants.selectedObject];
-      ReceivePort receivePort = ReceivePort();
+
 
      final Isolate isolate = await Isolate.spawn(
        _run,
@@ -249,15 +247,7 @@ class _DetectorServer {
      return isolate;
   }
 
-    void run(Map<String, dynamic> params) {
 
-    ReceivePort receivePort = ReceivePort();
-    receivePort.listen((message) {
-      final _Command command = message as _Command;
-      _handleCommand(command);
-    });
-    sendPort?.send(_Command(_Codes.init, args: [receivePort.sendPort]));
-  }
 
 
 

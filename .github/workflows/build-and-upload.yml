@@ -5,10 +5,11 @@ name: Build & Upload (Android, iOS)
 on:
   pull_request:
     branches:
-      - master
+      - main
   push:
     branches:
       - main
+
 
 
 jobs:
@@ -34,7 +35,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          flutter-version: '3.27.1g'
+          flutter-version: '3.27.1'
 
 
       - name: Get Flutter packages

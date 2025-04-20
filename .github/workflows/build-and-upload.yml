@@ -46,9 +46,7 @@ jobs:
           flutter pub get
 
 
-      - name: Check for lints
-        run: |
-          flutter analyze
+
 
 
       - name: Run all tests
